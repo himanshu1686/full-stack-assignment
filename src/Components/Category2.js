@@ -38,11 +38,15 @@ const Category2 = () => {
             <img 
             class="img-fluid "
             src={element} /> 
+            <a target="_blank" noreferer="none" href={element}>
+            
             <div 
             class="overlaySheet " 
             >
+              <div class="expandSpan mx-auto"> <i class="fas fa-expand"></i> </div>
 
             </div>
+            </a>
           </div>
             
           </div>

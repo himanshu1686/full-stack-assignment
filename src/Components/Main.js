@@ -29,7 +29,9 @@ const Main = (  ) => {
                onClick={ navBtnClick } >Category 1</span>
               </li>
               <li class="nav-item mx-5">
-                <span className={ (activeNavTab==='Category 2')?"nav-link activePageControl" : "nav-link"} onClick={ navBtnClick }>Category 2</span>
+                <span className={ (activeNavTab==='Category 2')?"nav-link activePageControl" : "nav-link"} onClick={ navBtnClick }> 
+            
+                Category 2</span>
               </li>
               <li class="nav-item">
                 <span className={ (activeNavTab==='Category 3')?"nav-link activePageControl" : "nav-link"} onClick={ navBtnClick }>Category 3</span>

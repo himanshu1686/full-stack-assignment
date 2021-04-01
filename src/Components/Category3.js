@@ -34,14 +34,19 @@ const Category3 = () => {
         {images.map((element, index) => (
           <div  class=" col-12  col-sm-6 col-md-4 "key={index}  >
             <div   class="p-3 imageWrapper"  >
+            
             <img 
             class="img-fluid"
             src={element} /> 
+            <a target="_blank" noreferer="none" href={element}>
+
             <div 
             class="overlaySheet " 
             >
+            <div class="expandSpan mx-auto"> <i class="fas fa-expand"></i> </div>
 
             </div>
+            </a>
           </div>
             
           </div>
