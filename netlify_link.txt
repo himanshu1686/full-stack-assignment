@@ -1,1 +1,1 @@
-netlify link :-  https://6065af92dc3baf00073fd1e1--mystifying-edison-fc720b.netlify.app/
+netlify link :- https://6065b0423c7dc900077a41d9--mystifying-edison-fc720b.netlify.app/
