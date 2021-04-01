@@ -1,0 +1,10 @@
+Starting up the app.
+step 1 : Go to folder in your terminal.
+step 2 : type following command ' npm install ' 
+step 3 : type following command ' npm run start '
+
+smae is deployed on netfily also link is :- 
+
+Tried my best completing the assignment . I took a design choice and implemented gallery in a more
+ symmetrical manner which would allow users acces to more images in a time ( The image size according to 
+my view was a little too big in the given helping template ). 
