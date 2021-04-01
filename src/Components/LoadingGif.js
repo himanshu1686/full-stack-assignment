@@ -2,9 +2,9 @@ import React from 'react'
 import loader from './FadingSquares.gif'
 const LoadingGif = () => {
     return (
-        <div class="w-100 p-2 text-center" >
+        <div className="w-100 p-2 text-center" >
         <span>
-            <img src = {loader}  />
+            <img src = {loader}  alt="" />
         </span>
         </div>
     )

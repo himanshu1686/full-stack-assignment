@@ -1,8 +1,6 @@
-import React , {useEffect, useState } from 'react'
+import React , { useState } from 'react'
 
-import LoadingGif from './LoadingGif'
-import axios from 'axios'
-import InfiniteScroll from 'react-infinite-scroll-component'
+
 
 import Category1 from './Category1'
 import Category2 from './Category2'
@@ -20,27 +18,27 @@ const Main = (  ) => {
   }
     return (
         <div>
-         <div class="container my-5" >
-            <ul class="nav  pagecontrol">
-              <li class="nav-item">
+         <div className="container my-5" >
+            <ul className="nav  pagecontrol">
+              <li className="nav-item">
                 <span 
                  className={ (activeNavTab==='Category 1')?"nav-link activePageControl" : "nav-link"} 
                 // className="nav-link"
                onClick={ navBtnClick } >Category 1</span>
               </li>
-              <li class="nav-item mx-5">
+              <li className="nav-item mx-5">
                 <span className={ (activeNavTab==='Category 2')?"nav-link activePageControl" : "nav-link"} onClick={ navBtnClick }> 
             
                 Category 2</span>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <span className={ (activeNavTab==='Category 3')?"nav-link activePageControl" : "nav-link"} onClick={ navBtnClick }>Category 3</span>
               </li>
             
             </ul>
           </div>
           {/* <LoadingGif/> */}
-         <div  class="w-100">
+         <div  className="w-100">
             
           { 
             ( activeNavTab==="Category 1" )? ( 
