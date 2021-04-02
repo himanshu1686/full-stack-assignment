@@ -1,5 +1,5 @@
 import React , {useEffect , useState} from 'react'
-import LoadingGif from './LoadingGif'
+import LoadingGif from '../Spinners/LoadingGif'
 import axios from 'axios'
 import InfiniteScroll from 'react-infinite-scroll-component'
 const Category1 = () => {

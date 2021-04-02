@@ -41,3 +41,11 @@ body {
   font-size: 32px;
   margin-top: 33%;
 }
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.nav-btn {
+  font-size: 13px;
+  border-radius: 0;
+  padding: 12px;
+}

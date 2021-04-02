@@ -2,9 +2,9 @@ import React , { useState } from 'react'
 
 
 
-import Category1 from './Category1'
-import Category2 from './Category2'
-import Category3 from './Category3'
+import Category1 from './CategoryContent/Category1'
+import Category2 from './CategoryContent/Category2'
+import Category3 from './CategoryContent/Category3'
 
 
 const Main = (  ) => {
