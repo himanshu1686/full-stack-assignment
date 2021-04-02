@@ -8,3 +8,4 @@ same is deployed on netfily also link is :- https://6065b0423c7dc900077a41d9--my
 Tried my best completing the assignment . I took a design choice and implemented gallery in a more
  symmetrical manner which would allow users acces to more images in a time ( The image size according to 
 my view was a little too big in the given helping template ). 
+// trigger deploy
